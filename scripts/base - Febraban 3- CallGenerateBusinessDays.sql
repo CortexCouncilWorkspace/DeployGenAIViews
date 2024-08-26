@@ -1,0 +1,1 @@
+CALL `{{ project_id_tgt }}.{{ dataset_reporting_tgt }}.GenerateBusinessDays`('2000-01-01', '2099-12-31');
