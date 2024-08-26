@@ -27,7 +27,10 @@ class DeployViews:
         # Inicializar o cliente BigQuery
         credentials = service_account.Credentials.from_service_account_file('account/gcp_service_account.json')
         bigquery_client = bigquery.Client(credentials=credentials, project=credentials.project_id)
-        
+
+        sql_files = [f for f in os.listdir(folder_path) if f.endswith(".sql")]
+        sql_files.sort()  # Ordenar os arquivos em ordem alfabética
+                
         # Iterar sobre os arquivos .sql na pasta
         for filename in os.listdir(folder_path):
             if filename.endswith(".sql"):
