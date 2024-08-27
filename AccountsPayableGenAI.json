@@ -1,0 +1,590 @@
+[
+  {
+    "name": "Client_MANDT",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Client (Mandant)",
+    "fields": []
+  },
+  {
+    "name": "CompanyCode_BUKRS",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Company Code",
+    "fields": []
+  },
+  {
+    "name": "CompanyText_BUTXT",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Company Name",
+    "fields": []
+  },
+  {
+    "name": "AccountNumberOfVendorOrCreditor_LIFNR",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Vendor Number",
+    "fields": []
+  },
+  {
+    "name": "NAME1",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Vendor Number",
+    "fields": []
+  },
+  {
+    "name": "VendorAccountGroup_KTOKK",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Account Group",
+    "fields": []
+  },
+  {
+    "name": "AmountInLocalCurrency_DMBTR",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amt.in loc.cur.",
+    "fields": []
+  },
+  {
+    "name": "AmountInDocumentCurrency_WRBTR",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "AmountInDocumentCurrency_WRBTR",
+    "fields": []
+  },
+  {
+    "name": "AccountingDocumentNumber_BELNR",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Document Number",
+    "fields": []
+  },
+  {
+    "name": "IsInvoice",
+    "mode": "NULLABLE",
+    "type": "BOOLEAN",
+    "description": "Return True or False If document is an invoice",
+    "fields": []
+  },
+  {
+    "name": "NumberOfLineItemWithinAccountingDocument_BUZEI",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Line item",
+    "fields": []
+  },
+  {
+    "name": "DocumentNumberOfTheClearingDocument_AUGBL",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Clearing Document",
+    "fields": []
+  },
+  {
+    "name": "TermsOfPaymentKey_ZTERM",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Terms of Payment",
+    "fields": []
+  },
+  {
+    "name": "AccountType_KOART",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Account Type",
+    "fields": []
+  },
+  {
+    "name": "ReasonCodeForPayments_RSTGR",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Reason code",
+    "fields": []
+  },
+  {
+    "name": "PaymentBlockKey_ZLSPR",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Payment Block",
+    "fields": []
+  },
+  {
+    "name": "ClearingDate_AUGDT",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Clearing date",
+    "fields": []
+  },
+  {
+    "name": "PostingDateInTheDocument_BUDAT",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "FiscalYear_GJAHR",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Fiscal Year",
+    "fields": []
+  },
+  {
+    "name": "FiscalPeriod_MONAT",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Posting period",
+    "fields": []
+  },
+  {
+    "name": "DocFiscPeriod",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Doc Fisc Period",
+    "fields": []
+  },
+  {
+    "name": "KeyFiscPeriod",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Key Fisc Period",
+    "fields": []
+  },
+  {
+    "name": "NetDueDate",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Net Due Date",
+    "fields": []
+  },
+  {
+    "name": "InvStatus_RBSTAT",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Invoice doc. status",
+    "fields": []
+  },
+  {
+    "name": "PostingDate_BUDAT",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "PurchasingDocumentNumber_EBELN",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Purchasing Document",
+    "fields": []
+  },
+  {
+    "name": "CurrencyKey_WAERS",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Currency",
+    "fields": []
+  },
+  {
+    "name": "SupplyingCountry_LANDL",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Supplying Cntry",
+    "fields": []
+  },
+  {
+    "name": "AccountingDocumenttype_BLART",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Document Type",
+    "fields": []
+  },
+  {
+    "name": "InvoiceDocumenttype_BLART",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Document Type",
+    "fields": []
+  },
+  {
+    "name": "MovementType__inventoryManagement___BWART",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "Movement type",
+    "fields": []
+  },
+  {
+    "name": "POOrderHistory_AmountInLocalCurrency_DMBTR",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amt.in loc.cur.",
+    "fields": []
+  },
+  {
+    "name": "POOrderHistory_AmountInDocumentCurrency_WRBTR",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "POOrderHistory_AmountInDocumentCurrency_WRBTR",
+    "fields": []
+  },
+  {
+    "name": "POOrderHistory_AmountInTargetCurrency_WRBTR",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "POOrderHistory_AmountInTargetCurrency_WRBTR",
+    "fields": []
+  },
+  {
+    "name": "YearOfPostingDateInTheDocument_BUDAT",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "MonthOfPostingDateInTheDocument_BUDAT",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "WeekOfPostingDateInTheDocument_BUDAT",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "QuarterOfPostingDateInTheDocument_BUDAT",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "AmountInTargetCurrency_WRBTR",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "AmountInTargetCurrency_WRBTR",
+    "fields": []
+  },
+  {
+    "name": "ExchangeRate_UKURS",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Exchange Rate",
+    "fields": []
+  },
+  {
+    "name": "TargetCurrency_TCURR",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": "To-currency",
+    "fields": []
+  },
+  {
+    "name": "OverdueAmountInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Overdue Amount In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "OverdueAmountInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Overdue Amount In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "OverdueAmountInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Overdue Amount In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "OutstandingButNotOverdueInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Outstanding But Not Overdue In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "OutstandingButNotOverdueInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Outstanding But Not Overdue In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "OutstandingButNotOverdueInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Outstanding But Not Overdue In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "OverdueOnPastDateInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Overdue On Past Date In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "OverdueOnPastDateInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Overdue On Past Date In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "OverdueOnPastDateInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Overdue On Past Date In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "PartialPaymentsInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Partia lPayments In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "PartialPaymentsInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Partia lPayments In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "PartialPaymentsInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Partial Payments In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "LatePaymentsInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Late Payments In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "LatePaymentsInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Late Payments In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "LatePaymentsInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Late Payments In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "UpcomingPaymentsInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Upcoming Payments In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "UpcomingPaymentsInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Upcoming Payments In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "UpcomingPaymentsInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Upcoming Payments In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "PotentialPenaltyInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Potential Penalty In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "PotentialPenaltyInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Potential Penalty In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "PotentialPenaltyInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Potential Penalty In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "PurchaseInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Purchase In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "PurchaseInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Purchase In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "PurchaseInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Purchase In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "IsParkedInvoice",
+    "mode": "NULLABLE",
+    "type": "BOOLEAN",
+    "description": "Is Parked Invoice",
+    "fields": []
+  },
+  {
+    "name": "IsBlockedInvoice",
+    "mode": "NULLABLE",
+    "type": "BOOLEAN",
+    "description": "Is Blocked Invoice",
+    "fields": []
+  },
+  {
+    "name": "CashDiscountReceivedInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Cash Discount Received In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "CashDiscountReceivedInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Cash Discount Received In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "CashDiscountReceivedInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Cash Discount Received In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "TargetCashDiscountInSourceCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Target Cash Discount In Source Currency",
+    "fields": []
+  },
+  {
+    "name": "TargetCashDiscountInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Target Cash Discount In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "AmountOfOpenDebitItemsInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amount Of Open Debit Items In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "AmountOfOpenDebitItemsInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amount Of Open Debit Items In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "AmountOfOpenDebitItemsInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amount Of Open Debit Items In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "AmountOfReturnInLocalCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amount Of Return In Local Currency",
+    "fields": []
+  },
+  {
+    "name": "AmountOfReturnInDocumentCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amount Of Return In Document Currency",
+    "fields": []
+  },
+  {
+    "name": "AmountOfReturnInTargetCurrency",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Amount Of Return In Target Currency",
+    "fields": []
+  },
+  {
+    "name": "IsManualPayment",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Is Manual Payment (Returns true or false)",
+    "fields": []
+  },
+  {
+    "name": "IsInvoiceMaterialService",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Is Invoice Material Service (Returns true or false)",
+    "fields": []
+  },
+  {
+    "name": "IsAutomaticPayment",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Is Automatic Payment (Returns true or false)",
+    "fields": []
+  },
+  {
+    "name": "IsInvoiceMaterialService",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Is Invoice Material Service  (Returns true or false)",
+    "fields": []
+  },
+  {
+    "name": "IsHardBlocked",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Is Hard Blocked (Returns true or false)",
+    "fields": []
+  },
+  {
+    "name": "IsLegal",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "description": "Is Legal (Returns true or false)",
+    "fields": []
+  }
+]

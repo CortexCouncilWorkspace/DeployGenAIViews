@@ -1,0 +1,366 @@
+[
+  {
+    "name": "Client_MANDT",
+    "mode": "",
+    "type": "STRING",
+    "description": "Client (Mandant)",
+    "fields": []
+  },
+  {
+    "name": "ExchangeRateType_KURST",
+    "mode": "",
+    "type": "STRING",
+    "description": "Exchange Rate Type",
+    "fields": []
+  },
+  {
+    "name": "CompanyCode_BUKRS",
+    "mode": "",
+    "type": "STRING",
+    "description": "Company Code",
+    "fields": []
+  },
+  {
+    "name": "CompanyText_BUTXT",
+    "mode": "",
+    "type": "STRING",
+    "description": "Company Name",
+    "fields": []
+  },
+  {
+    "name": "CustomerNumber_KUNNR",
+    "mode": "",
+    "type": "STRING",
+    "description": "Customer",
+    "fields": []
+  },
+  {
+    "name": "FiscalYear_GJAHR",
+    "mode": "",
+    "type": "STRING",
+    "description": "Fiscal Year",
+    "fields": []
+  },
+  {
+    "name": "NAME1_NAME1",
+    "mode": "",
+    "type": "STRING",
+    "description": "Customer Name",
+    "fields": []
+  },
+  {
+    "name": "Company_Country",
+    "mode": "",
+    "type": "STRING",
+    "description": "Country Key",
+    "fields": []
+  },
+  {
+    "name": "Company_City",
+    "mode": "",
+    "type": "STRING",
+    "description": "Company",
+    "fields": []
+  },
+  {
+    "name": "CountryKey_LAND1",
+    "mode": "",
+    "type": "STRING",
+    "description": "Country Key",
+    "fields": []
+  },
+  {
+    "name": "City_ORT01",
+    "mode": "",
+    "type": "STRING",
+    "description": "City",
+    "fields": []
+  },
+  {
+    "name": "AccountingDocumentNumber_BELNR",
+    "mode": "",
+    "type": "STRING",
+    "description": "Document Number",
+    "fields": []
+  },
+  {
+    "name": "NumberOfLineItemWithinAccountingDocument_BUZEI",
+    "mode": "",
+    "type": "STRING",
+    "description": "Line item",
+    "fields": []
+  },
+  {
+    "name": "CurrencyKey_WAERS",
+    "mode": "",
+    "type": "STRING",
+    "description": "Currency",
+    "fields": []
+  },
+  {
+    "name": "LocalCurrency_HWAER",
+    "mode": "",
+    "type": "STRING",
+    "description": "Local Currency",
+    "fields": []
+  },
+  {
+    "name": "FiscalyearVariant_PERIV",
+    "mode": "",
+    "type": "STRING",
+    "description": "Fiscal Year Variant",
+    "fields": []
+  },
+  {
+    "name": "Period",
+    "mode": "",
+    "type": "STRING",
+    "description": "Period",
+    "fields": []
+  },
+  {
+    "name": "Current_Period",
+    "mode": "",
+    "type": "STRING",
+    "description": "Current",
+    "fields": []
+  },
+  {
+    "name": "AccountType_KOART",
+    "mode": "",
+    "type": "STRING",
+    "description": "Account Type",
+    "fields": []
+  },
+  {
+    "name": "PostingDateInTheDocument_BUDAT",
+    "mode": "",
+    "type": "DATE",
+    "description": "Posting Date",
+    "fields": []
+  },
+  {
+    "name": "DocumentDateInDocument_BLDAT",
+    "mode": "",
+    "type": "DATE",
+    "description": "Document Date",
+    "fields": []
+  },
+  {
+    "name": "InvoiceToWhichTheTransactionBelongs_REBZG",
+    "mode": "",
+    "type": "STRING",
+    "description": "Invoice reference",
+    "fields": []
+  },
+  {
+    "name": "BillingDocument_VBELN",
+    "mode": "",
+    "type": "STRING",
+    "description": "Billing Document",
+    "fields": []
+  },
+  {
+    "name": "WrittenOffAmount_DMBTR",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Amt.in loc.cur.",
+    "fields": []
+  },
+  {
+    "name": "BadDebt_DMBTR",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Amt.in loc.cur.",
+    "fields": []
+  },
+  {
+    "name": "NetDueDate",
+    "mode": "",
+    "type": "DATE",
+    "description": "Net Due Date",
+    "fields": []
+  },
+  {
+    "name": "CashDiscountDate1",
+    "mode": "",
+    "type": "DATE",
+    "description": "Cash Discount Date1",
+    "fields": []
+  },
+  {
+    "name": "CashDiscountDate2",
+    "mode": "",
+    "type": "DATE",
+    "description": "Cash Discount Date2",
+    "fields": []
+  },
+  {
+    "name": "OpenAndNotDue",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Open And Not Due",
+    "fields": []
+  },
+  {
+    "name": "ClearedAfterDueDate",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Cleared After Due Date",
+    "fields": []
+  },
+  {
+    "name": "ClearedOnOrBeforeDueDate",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Cleared On Or Before Due Date",
+    "fields": []
+  },
+  {
+    "name": "OpenAndOverDue",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Open And Over Due",
+    "fields": []
+  },
+  {
+    "name": "DoubtfulReceivables",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Doubtful Receivables",
+    "fields": []
+  },
+  {
+    "name": "DaysInArrear",
+    "mode": "",
+    "type": "INTEGER",
+    "description": "Days In Arrear",
+    "fields": []
+  },
+  {
+    "name": "AccountsReceivable",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Accounts Receivable",
+    "fields": []
+  },
+  {
+    "name": "Sales",
+    "mode": "",
+    "type": "NUMERIC",
+    "description": "Sales",
+    "fields": []
+  },
+  {
+    "name": "SpecialGLIndicator_UMSKZ",
+    "mode": "",
+    "type": "",
+    "description": "Special GL Indicator",
+    "fields": []
+  },
+  {
+    "name": "UserName_USNAM",
+    "mode": "",
+    "type": "",
+    "description": "User Name",
+    "fields": []
+  },
+  {
+    "name": "AssignmentNumber_ZUONR",
+    "mode": "",
+    "type": "",
+    "description": "Assignment Number",
+    "fields": []
+  },
+  {
+    "name": "DocumentType_BLART",
+    "mode": "",
+    "type": "",
+    "description": "Document Type",
+    "fields": []
+  },
+  {
+    "name": "DocumentTypeText_LTEXT",
+    "mode": "",
+    "type": "",
+    "description": "Document Type Description",
+    "fields": []
+  },
+  {
+    "name": "ClearingDate_AUGDT",
+    "mode": "",
+    "type": "",
+    "description": "Clearing Date",
+    "fields": []
+  },
+  {
+    "name": "AgingRange",
+    "mode": "",
+    "type": "",
+    "description": "Aging Range",
+    "fields": []
+  },
+  {
+    "name": "AgingList",
+    "mode": "",
+    "type": "",
+    "description": "Aging List",
+    "fields": []
+  },
+  {
+    "name": "SpecialGLIndicatorLine_ktext",
+    "mode": "",
+    "type": "",
+    "description": "Special GL Indicator Line",
+    "fields": []
+  },
+  {
+    "name": "SpecialGLIndicatorEvent_ltext",
+    "mode": "",
+    "type": "",
+    "description": "Special GL Indicator Event",
+    "fields": []
+  },
+  {
+    "name": "BusinessPlace_BUPLA",
+    "mode": "",
+    "type": "",
+    "description": "Business Place",
+    "fields": []
+  },
+  {
+    "name": "PostingKey_BSCHL",
+    "mode": "",
+    "type": "",
+    "description": "Posting Key",
+    "fields": []
+  },
+  {
+    "name": "IsAccountsPayableCompensation",
+    "mode": "",
+    "type": "",
+    "description": "Is Accounts Payable Compensation (True/False)",
+    "fields": []
+  },
+  {
+    "name": "IsAutomaticPosting",
+    "mode": "",
+    "type": "",
+    "description": "Is Automatic Posting (True/False)",
+    "fields": []
+  },
+  {
+    "name": "ItemText_SGTXT",
+    "mode": "",
+    "type": "",
+    "description": "Account Item Text",
+    "fields": []
+  },
+  {
+    "name": "AmountInLocalCurrency_DMBTR",
+    "mode": "",
+    "type": "",
+    "description": "Amount In Local Currency",
+    "fields": []
+  }
+]
